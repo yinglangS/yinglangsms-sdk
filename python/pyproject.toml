@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yinglangsms"
+version = "1.0.0"
+description = "银狼接码官方 Python SDK - 短信验证码接收平台开放 API（长效号码 / 在线接码）"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["sms", "verification-code", "接码", "短信验证码", "virtual-number"]
+dependencies = ["requests>=2.20"]
+
+[project.urls]
+Homepage = "https://doc.yljm.cc/"
+Documentation = "https://doc.yljm.cc/"
+Repository = "https://github.com/yinglangS/yinglangsms-sdk"
+
+[tool.setuptools.packages.find]
+include = ["yinglangsms*"]

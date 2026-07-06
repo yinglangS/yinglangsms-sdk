@@ -1,0 +1,13 @@
+{
+  "name": "yinglangsms",
+  "version": "1.0.0",
+  "description": "银狼接码官方 Node.js SDK - 短信验证码接收平台开放 API（长效号码 / 在线接码）",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": { "node": ">=18" },
+  "keywords": ["sms", "verification-code", "接码", "短信验证码", "virtual-number", "yinglangsms"],
+  "homepage": "https://doc.yljm.cc/",
+  "repository": { "type": "git", "url": "https://github.com/yinglangS/yinglangsms-sdk.git", "directory": "sdk/nodejs" },
+  "license": "MIT",
+  "files": ["index.js", "index.d.ts", "README.md"]
+}
