@@ -82,7 +82,6 @@ GET /api/v1/apps?page=1&limit=40&keyword=&cate_id=0
 | cate_id | 分类 ID |
 | price | 单价（USDT） |
 | stock | 库存 |
-| success_rate | 成功率 %，无数据为 null |
 
 ### 获取号码前缀
 
@@ -170,7 +169,6 @@ GET /api/v1/online/countries?app_id=1001&keyword=
 | title / iso / dial_code | 国家名 / ISO 码 / 区号 |
 | price | 单价（USDT） |
 | available | 是否有货 |
-| success_rate | 成功率 %，无数据为 null |
 
 ### 购买取号
 

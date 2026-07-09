@@ -41,11 +41,11 @@ curl "https://a.yljm.cc/api/v1/user/info" -H "Authorization: 你的API_KEY"
 
 | 语言 | 目录 | 要求 |
 |------|------|------|
-| Node.js | [`sdk/nodejs`](../../sdk/nodejs) | Node 18+，零依赖 |
-| Python | [`sdk/python`](../../sdk/python) | Python 3.8+，requests |
-| Go | [`sdk/go`](../../sdk/go) | Go 1.20+，零依赖 |
-| Java | [`sdk/java`](../../sdk/java) | Java 11+，零依赖 |
-| JavaScript (浏览器) | [`sdk/js`](../../sdk/js) | 现代浏览器 ESM |
+| Node.js | [`nodejs`](/nodejs) | Node 18+，零依赖 |
+| Python | [`python`](/python) | Python 3.8+，requests |
+| Go | [`go`](/sdk/go) | Go 1.20+，零依赖 |
+| Java | [`java`](/sdk/java) | Java 11+，零依赖 |
+| JavaScript (浏览器) | [`js`](/sdk/js) | 现代浏览器 ESM |
 
 ### Python 30 秒上手
 
